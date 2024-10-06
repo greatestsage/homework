@@ -1,0 +1,28 @@
+body {
+    font-size: 26px;
+}
+
+.block1 {
+    background-color: #a52a2a;
+    color: white;
+}
+
+.kub {
+    width: 100px;
+    height: 100px;
+    background-color: #39c117;
+}
+
+.test-text {
+    color: cornflowerblue;
+}
+
+.block2 {
+    width: 300px;
+    background-color: rgb(223, 203, 203);
+}
+
+.block2 span {
+    background-color: #d12525;
+    color: white;
+}
