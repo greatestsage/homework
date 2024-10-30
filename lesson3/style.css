@@ -1,0 +1,20 @@
+.nav__list {
+    display: flex;
+    gap: 25px;
+    background-color: aquamarine;
+    height: 60px;
+}
+
+.nav__list li a {
+    color: black;
+}
+
+.one {
+    background-color: bisque;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 300px;
+}
