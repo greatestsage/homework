@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    width: 50%;
+    height: 130px;
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}
+
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60%;
+    left: 15%;
+}
