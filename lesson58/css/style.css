@@ -46,10 +46,22 @@ body {
 
 /* ================== Выполнение дз ниже =================== */
 
-.box__scale {
+
+/* V-1 */
+/* .box__scale {
     transition: 5s;
 }
 
 .box span {
     transition-delay: 5.2s;
+}
+ */
+
+/* V-2 */
+.box__scale {
+    transition: 3s;
+}
+
+.box span {
+    transition: 1s 3s;
 }
