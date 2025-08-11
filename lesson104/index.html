@@ -3,94 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Объекты и массив пользователей</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            padding: 20px;
-        }
-
-        .container {
-            background: #fff;
-            border-radius: 8px;
-            padding: 20px;
-            max-width: 500px;
-            margin: auto;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        button {
-            background: #4cafef;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            color: white;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #3498db;
-        }
-
-        .output {
-            margin-top: 15px;
-            padding: 10px;
-            background: #eee;
-            border-radius: 5px;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашка 104</title>
 </head>
 
 <body>
 
-    <div class="container">
-        <h2>Пример с объектами и массивом</h2>
-        <input type="text" id="nameInput" placeholder="Введите имя">
-        <button onclick="greetUser()">Сказать Hello</button>
-        <div id="helloOutput" class="output"></div>
-
-        <h3>Подсчёт простых пользователей:</h3>
-        <div id="userCount" class="output"></div>
-    </div>
-
-    <script>
-        // Объект с описанием
-        const myInfo = {
-            name: "ChatGPT",
-            age: 2,
-            role: "AI Assistant",
-            sayHello: function (name) {
-                return `Hello "${name}"`;
-            }
-        };
-
-        // Функция для кнопки
-        function greetUser() {
-            const inputName = document.getElementById("nameInput").value;
-            document.getElementById("helloOutput").textContent = myInfo.sayHello(inputName || "Гость");
-        }
-
-        // Массив пользователей
-        const users = [
-            { name: "Alice", age: 25, isAdmin: false },
-            { name: "Bob", age: 30, isAdmin: true },
-            { name: "Charlie", age: 28, isAdmin: false },
-            { name: "Diana", age: 22, isAdmin: false }
-        ];
-
-        // Подсчёт простых пользователей
-        let simpleUsersCount = 0;
-        for (let user of users) {
-            if (!user.isAdmin) {
-                simpleUsersCount++;
-            }
-        }
-
-        // Вывод количества на страницу
-        document.getElementById("userCount").textContent =
-            `Количество простых пользователей: ${simpleUsersCount}`;
-    </script>
+    <script src="main.js"></script>
 
 </body>
 
